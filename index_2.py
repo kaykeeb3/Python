@@ -123,10 +123,10 @@ dici_3 = dict([('nome', 'João'), ('idade', 30)])
 import numpy
 
 ## ex: matriz
-matriz_1_1 = numpy.array([1, 2, 3]) # cria uma matriz 1 linha 1 coluna.
-matriz_2_2= numpy.array([1, 2], [3, 4]) # cria uma matriz 2 linha 2 coluna.
-matriz_3_2= numpy.array([1, 2], [3, 4], [5, 6]) # cria uma matriz 3 linha 2 coluna.
-matriz_2_3= numpy.array([1, 2, 3], [4, 5, 6]) # cria uma matriz 2 linha 3 coluna.
+matriz_1_1 = numpy.array([1, 2, 3]) # cria uma matriz 1 linhas 1 colunas.
+matriz_2_2= numpy.array([1, 2], [3, 4]) # cria uma matriz 2 linhas 2 colunas.
+matriz_3_2= numpy.array([1, 2], [3, 4], [5, 6]) # cria uma matriz 3 linhas 2 colunas.
+matriz_2_3= numpy.array([1, 2, 3], [4, 5, 6]) # cria uma matriz 2 linhas 3 colunas.
 
 print(type(matriz_1_1))
 print('n/ matriz_1_1 = ', matriz_1_1)
