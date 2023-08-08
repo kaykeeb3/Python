@@ -13,8 +13,9 @@ print('Ferdanda')
 
 
 ## Complexidade :
- ## Em termos conputacionais, um algoritimo é considerado melhor do que o outro quando, para a mesma entrada, utilizar menos recuros computacionais em termos de mémoria e processamento.
+ ## Em termos conputacionais, um algoritimo é considerado melhor do que o outro quando, para a  mesma entrada, utilizar menos recuros computacionais em termos de mémoria e processamento.
  ## Análise computacional é feita com duas dimensões: espaço e tempo.
+
 
 # Algoritmo de Busca:
 def executar_busca_binaria(lista, valor):
