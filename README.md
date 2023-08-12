@@ -8,7 +8,7 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-## ⚙ BACK-END
+## ⚙ BACK-END & LÓGICA 
 - Python 3
 
 ## 📚 ALGORITMOS
@@ -22,4 +22,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O intuito desse repositório é treinar os conhecimentos técnico em programação <strong>BACK-END</span> abrangendo os conhecimentos em <strong>Python & Algoritmos</strong>
+O intuito desse repositório é treinar os conhecimentos técnico em programação com a linguagem <strong>Python</span> abrangendo os conhecimentos em <strong>Lógica de Programação & Algoritmos</strong>
