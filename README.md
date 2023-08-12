@@ -9,7 +9,7 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## ⚙ BACK-END
-- Python
+- Python 3
 
 ## 📚 ALGORITMOS
 - Estrutura de Dados
