@@ -14,7 +14,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 📚 ALGORITMOS
 - Estrutura de Dados
 - Matriz
-- Conjunto Matemático 
+- Conjunto 
 - Algoritmo de Busca
 - Algoritmo de Ordenação
 
