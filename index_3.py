@@ -15,10 +15,34 @@
 
 ## Classes e métodos em Python:
 
-# ex:
+# ex_1:
 class PrimeraClasse:
     
     def imprimir_mensagem(self, nome): # criando um método
         print(f"Olá {nome}, seja bem vindo!")
         objeto_1 = PrimeraClasse() # instanciando um objeto do tipo PrimeraClasse
         objeto_1.imprimir_mensagem('João') # invocando o método
+
+# ex_2:
+class Televisao:
+    def __init__(self):
+        self.volume = 10
+    def aumentar_volume(self):
+        self.volume += 1
+    def diminuir_volume(self):
+        self.volume -= 1
+
+tv =  Televisao()
+print("O volume ao ligar a tv = ", tv.volume)
+tv.aumentar_volume()
+print("O volume atual = ", tv.volume)
+
+# ex_3:
+
+class ContaCorrente:
+    def __init__(self):
+        self.saldo = None
+    def depositar(self, valor):
+        self._saldo += valor
+    def consultar_saldo(self):
+        return self._sald
