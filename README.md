@@ -11,12 +11,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## ⚙ BACK-END & LÓGICA 
 - Python 3
 
-## 📚 ALGORITMOS
+## 📚 ALGORITMOS & Métodos
 - Estrutura de Dados
 - Matriz
 - Conjunto 
 - Algoritmo de Busca
 - Algoritmo de Ordenação
+- Classes e Métodos em Python
+- Aplicação de Banco de Dados
+- POO
 
 <br>
 
