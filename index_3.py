@@ -46,3 +46,30 @@ class ContaCorrente:
         self._saldo += valor
     def consultar_saldo(self):
         return self._sald
+    
+# ex_4:
+
+class Pessoa:
+    def __init__(self):
+        self.cpf = None
+        self.nome = None
+        self.endereco = None
+
+# ex_5:
+
+#class Funcionario:
+   # def __init__(self):
+  #      self.matricula = None
+ #       self.salario = None
+#    def bater_ponto(self):
+        # código aqui
+#       pass
+#   def fazer_login(self):
+        # código aqui
+#       pass
+
+# Métodos mágicos em Python:
+
+# ex_6:
+
+print(dir(Pessoa))
