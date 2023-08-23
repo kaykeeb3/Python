@@ -9,9 +9,11 @@ def main():
     for num in vetor:
         mutiplicacao *= num 
 
-print("Números digitados:", vetor)
-print("Soma:", soma)
-print("Soma:", mutiplicacao)
+# obs: tirar os comentários na hora de fazer a execução do código!
+
+#print("Números digitados:", vetor)
+#print("Soma:", soma)
+#print("Soma:", mutiplicacao)
 
 if __name__ == "__name__":
     main()
