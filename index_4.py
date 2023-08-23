@@ -18,3 +18,31 @@
   # Exemplos de sistemas de gerenciamento de banco de dados relacionais incluem MySQL, PostgreSQL, Microsoft SQL Server e Oracle Database.
 
   # Esses bancos de dados são amplamente utilizados em várias aplicações, desde sistemas de gerenciamento de conteúdo até sistemas de finanças, devido à sua capacidade de estruturar e relacionar os dados de forma eficiente.
+
+
+
+## Indtrodução a Biblioteca Pandas:
+  
+  ## Pandas é um pacote em Python que fornece estruturas de dados projetados para facilitar o trabalho com dados estruturados (tabelas) e de séries temporais.
+
+## Pandas possui duas estruturas de dados que são as principais para a análise / manipulação de dados: Series e o DataFrame.
+
+# ex: 01
+
+import pandas as pd
+
+pd.Series(data=5)
+
+lista_nomes = 'Kayke Luiza Marcos Pedro Renata'.split()
+
+pd.Series(lista_nomes) # Criar uma series com o valor a lista_nomes = 'Kayke Luiza Marcos Pedro Renata' .split()
+
+dados = {
+    'nome_1': 'Kayke',
+    'nome_2': 'Luiza',
+    'nome_3': 'Marcos',
+    'nome_4': 'Pedro',
+    'nome_5': 'Renata',
+}
+
+pd.Series(dados) # Criar uma series com um dicionário
