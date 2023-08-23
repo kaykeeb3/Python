@@ -46,3 +46,15 @@ dados = {
 }
 
 pd.Series(dados) # Criar uma series com um dicionário
+
+
+# ex: 2
+
+import pandas as pd
+
+series_dados = pd.Series([10.2, -1, None, 15, 24.4])
+print('Quantidade de linhas = ', series_dados.shape) # Retorna uma tupla com o número de linhas
+print('Tipos de dados', series_dados.dtype) # Retorna o tipo de dados, se for misto será object
+print('Os valores são únicos?', series_dados.is_unique) # Verifica se os valores são únicos (sem duplicação)
+print('Existem valores nulos?', series_dados.hasnans) # Verifia se existem valores nulos
+print('Quantos valores existem?', series_dados.count()) # Conta quantos valores existem (excluí os nulos)
