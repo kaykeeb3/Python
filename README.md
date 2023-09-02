@@ -9,7 +9,8 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## ⚙ BACK-END & LÓGICA 
-- Python 
+- Python
+- SQL
 - Git & Github
 
 ## 📚 ALGORITMOS & MÉTODOS
