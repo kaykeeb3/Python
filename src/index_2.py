@@ -1,19 +1,21 @@
-def main():
-    vetor = []
-    for i in range(5):
-        numero = int(input(f"Digite o {i+1}° número inteiro: "))
-        vetor.append(numero)
+# Exemplo de criação de conjunto
+conjunto = {1, 2, 3, 4, 5}
 
-    soma = sum(vetor)
-    mutiplicacao = 1
-    for num in vetor:
-        mutiplicacao *= num 
+# Adição de elemento a um conjunto
+conjunto.add(6)
 
-# obs: tirar os comentários na hora de fazer a execução do código!
+# Remoção de elemento de um conjunto
+conjunto.remove(3)
 
-#print("Números digitados:", vetor)
-#print("Soma:", soma)
-#print("Soma:", mutiplicacao)
+# Verificação de pertencimento
+if 4 in conjunto:
+    print("O número 4 está no conjunto.")
 
-if __name__ == "__name__":
-    main()
+# Operações de conjunto
+conjunto1 = {1, 2, 3}
+conjunto2 = {3, 4, 5}
+uniao = conjunto1.union(conjunto2)
+intersecao = conjunto1.intersection(conjunto2)
+
+print("União:", uniao)
+print("Interseção:", intersecao)
